@@ -40,7 +40,7 @@ public abstract class Empleado {
     }
     @Override
     public String toString(){
-     return String.format("%s %s/nnumero de seguro social: %s",
+     return String.format("%s %s/numero de seguro social: %s",
    ObtenerPrimerNombre(),ObtenerApellidoPaterno(),ObtenerNumeroSeguroSocial() );
     }
     public abstract double ingresos ();
